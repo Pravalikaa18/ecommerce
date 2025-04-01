@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git branch: 'main', credentialsId: '8b36b4c0-735c-4c23-9d1c-df2e9be15024', url: 'https://github.com/Pravalikaa18/ecommerce-project.git'
+                git branch: 'main', credentialsId: '8b36b4c0-735c-4c23-9d1c-df2e9be15024', url: 'https://github.com/Pravalikaa18/ecommerce.git'
             }
         }
 
